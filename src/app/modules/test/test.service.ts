@@ -2,10 +2,11 @@ import { ITest } from "./test.interface";
 import { Test } from "./test.model";
 
 export const addTest = async (test: ITest) => {
+    console.log(test);
  
-    const result = await Test.create(test);
+    // const result = await Test.create(test);
 
-    return result;
+    // return result;
 }
 
 export const getTest = async () => {
